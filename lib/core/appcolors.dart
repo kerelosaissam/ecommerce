@@ -11,4 +11,6 @@ class Appcolors {
   static final Color pinput =Color(0xffF0F1F2);
   static final Color orangecolor =Colors.orange;
   static final Color greycolor =Colors.grey;
+  static final Color snakgrey =Color(0xff7C7C7C);
+  static final Color logout =Color(0xffF2F3F2);
 }

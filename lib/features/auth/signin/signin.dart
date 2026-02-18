@@ -1,3 +1,4 @@
+import 'package:ecommerce/core/appcolors.dart';
 import 'package:ecommerce/core/appstyles.dart';
 import 'package:ecommerce/features/auth/phone/phonevalidation.dart';
 import 'package:ecommerce/features/auth/signup/signup.dart';
@@ -74,7 +75,7 @@ class _SigninState extends State<Signin> {
                       MaterialPageRoute(builder: (context) => Phone()),
                     );
                   },
-                   kind: "Log in"),
+                   kind: "Log in", buttoncolor: Appcolors.primaryColor,),
                    SizedBox(height: 20,),
                 Buttom(
                   

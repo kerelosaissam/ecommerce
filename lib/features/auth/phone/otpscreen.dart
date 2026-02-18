@@ -1,7 +1,7 @@
 import 'package:ecommerce/core/appcolors.dart';
 import 'package:ecommerce/core/appstyles.dart';
 import 'package:ecommerce/features/auth/widgets/button.dart';
-import 'package:ecommerce/features/home/home.dart';
+import 'package:ecommerce/core/buttomnavbar.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
@@ -71,8 +71,8 @@ class Otpscreen extends StatelessWidget {
                 ),
                 SizedBox(height: 30),
                 Button(nav2: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
-                }, kind: "Confirm")
+                  Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>BottomNav()), (route) => false);
+                }, kind: "Confirm", buttoncolor: Appcolors.primaryColor,)
               ],
             ),
           ),

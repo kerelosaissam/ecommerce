@@ -1,3 +1,4 @@
+import 'package:ecommerce/core/appcolors.dart';
 import 'package:ecommerce/core/appstyles.dart';
 import 'package:ecommerce/features/auth/phone/otpscreen.dart';
 import 'package:ecommerce/features/auth/widgets/button.dart';
@@ -52,7 +53,7 @@ class _PhoneState extends State<Phone> {
                       MaterialPageRoute(builder: (context) => Otpscreen()),
                     );
                   },
-                   kind: "Next"),
+                   kind: "Next", buttoncolor:  Appcolors.primaryColor,),
                 SizedBox(height: 40),
                 Buttom(
                   logorsign: "Resend confirmation code (1:23)",

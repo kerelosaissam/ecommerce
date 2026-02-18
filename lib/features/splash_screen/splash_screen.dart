@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       width: 50,
                       height: 60,
                       colorFilter:  ColorFilter.mode(
-                        Colors.white,
+                        Appcolors.whitecolor,
                         BlendMode.srcIn,
                       ),
                     ),
